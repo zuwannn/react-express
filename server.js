@@ -17,6 +17,10 @@ app.get('/books', (req, res)=>{
     res.json(books)
 })
 
+app.post('/books', (req, res)=>{
+    books.push(req.body)
+    res.status(201).json(req.body)
+})
 
 app.listen(3000, () => {
     console.log('start server at port 3000');
