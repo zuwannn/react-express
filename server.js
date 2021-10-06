@@ -2,6 +2,9 @@ const express = require('express');
 const app = express()
 const books = require('./db.json')
 
+// Middleware
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
 app.get('/', function(req, res){
     res.send('Hello World')
