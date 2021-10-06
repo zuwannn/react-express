@@ -1,0 +1,24 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "React Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuwannn/react-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuwannn/react-express/issues"
+  },
+  "homepage": "https://github.com/zuwannn/react-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2"
+  }
+}
